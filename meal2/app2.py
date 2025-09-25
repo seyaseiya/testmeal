@@ -11,8 +11,8 @@ st.set_page_config(page_title="食事改善アプリ（3:4:3固定・カロリ�
 # ===============================
 # Supabase 認証（事前に st.secrets に URL/KEY を設定）
 # ===============================
-url = st.secrets["SUPABASE_URL"]
-key = st.secrets["SUPABASE_ANON_KEY"]
+url = st.secrets["https://wwjzpcfrbyvjcsdffklv.supabase.co/"]
+key = st.secrets["eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Ind3anpwY2ZyYnl2amNzZGZma2x2Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTgwOTY3NDcsImV4cCI6MjA3MzY3Mjc0N30.NtEgj3yyBon05eIhGINB0D5FyfF71ZsvGw0Cx0167dM"]
 supabase = create_client(url, key)
 
 def login_ui():
